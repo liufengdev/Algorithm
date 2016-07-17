@@ -46,8 +46,6 @@ int maxSubSequenceSum_NLogN( const int A[], int N)
     return maxSubSum(A, 0, N - 1);
 }
 
-
-
 int maxSubSequenceSum_N( const int A[], int N)
 {
     int thisSum = 0, max = 0;
