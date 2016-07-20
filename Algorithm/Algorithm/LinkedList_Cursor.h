@@ -9,13 +9,32 @@
 #ifndef LinkedList_Cursor_h
 #define LinkedList_Cursor_h
 
+#define List _List
+#define Node _Node
+#define PtrToNode _PtrToNode
+#define Position _Position
+#define ElementType _ElementType
+
+#define MakeEmpty _MakeEmpty
+#define IsEmpty _IsEmpty
+#define IsLast _IsLast
+#define Find _Find
+#define Delete _Delete
+#define FindPrevious _FindPrevious
+#define Insert _Insert
+#define DeleteList _DeleteList
+#define Header _Header
+#define First _First
+#define Advance _Advance
+#define Retrive _Retrive
+
 #include <stdio.h>
 
-struct Node;
-typedef int PtrToNode;
-typedef PtrToNode List;
-typedef PtrToNode Position;
-typedef int ElementType;
+struct _Node;
+typedef int _PtrToNode;
+typedef _PtrToNode _List;
+typedef _PtrToNode _Position;
+typedef int _ElementType;
 
 List MakeEmpty( List L );
 int IsEmpty( List L );
