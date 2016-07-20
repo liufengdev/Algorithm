@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		034F8DBA1D3B40E0000A7FB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 034F8DB91D3B40E0000A7FB5 /* main.c */; };
 		034F8DC21D3B412A000A7FB5 /* MaxSubSequenceSum.c in Sources */ = {isa = PBXBuildFile; fileRef = 034F8DC01D3B412A000A7FB5 /* MaxSubSequenceSum.c */; };
+		03E439CA1D3FC39F002CC2D4 /* LinkedList_Cursor.c in Sources */ = {isa = PBXBuildFile; fileRef = 03E439C81D3FC39F002CC2D4 /* LinkedList_Cursor.c */; };
 		03E512001D3E89A1000D9B63 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 03E511FE1D3E89A1000D9B63 /* LinkedList.c */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		034F8DB91D3B40E0000A7FB5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		034F8DC01D3B412A000A7FB5 /* MaxSubSequenceSum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MaxSubSequenceSum.c; sourceTree = "<group>"; };
 		034F8DC11D3B412A000A7FB5 /* MaxSubSequenceSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxSubSequenceSum.h; sourceTree = "<group>"; };
+		03E439C81D3FC39F002CC2D4 /* LinkedList_Cursor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList_Cursor.c; sourceTree = "<group>"; };
+		03E439C91D3FC39F002CC2D4 /* LinkedList_Cursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList_Cursor.h; sourceTree = "<group>"; };
 		03E511FE1D3E89A1000D9B63 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 		03E511FF1D3E89A1000D9B63 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +87,8 @@
 			children = (
 				03E511FE1D3E89A1000D9B63 /* LinkedList.c */,
 				03E511FF1D3E89A1000D9B63 /* LinkedList.h */,
+				03E439C81D3FC39F002CC2D4 /* LinkedList_Cursor.c */,
+				03E439C91D3FC39F002CC2D4 /* LinkedList_Cursor.h */,
 			);
 			name = "linked-list";
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E439CA1D3FC39F002CC2D4 /* LinkedList_Cursor.c in Sources */,
 				034F8DC21D3B412A000A7FB5 /* MaxSubSequenceSum.c in Sources */,
 				03E512001D3E89A1000D9B63 /* LinkedList.c in Sources */,
 				034F8DBA1D3B40E0000A7FB5 /* main.c in Sources */,

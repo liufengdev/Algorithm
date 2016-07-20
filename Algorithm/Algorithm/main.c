@@ -10,7 +10,6 @@
 #include "MaxSubSequenceSum.h"
 
 int main(int argc, const char * argv[]) {
-    
     const int A[] = {4, -3, 5, -2, -1, 2, 6, -2};
     int num = 8;
     int ret = maxSubSequenceSum_N(A, num);
