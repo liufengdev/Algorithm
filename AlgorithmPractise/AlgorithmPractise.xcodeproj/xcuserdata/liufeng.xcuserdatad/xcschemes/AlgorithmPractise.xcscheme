@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "034F8DB51D3B40E0000A7FB5"
-               BuildableName = "Algorithm"
-               BlueprintName = "Algorithm"
-               ReferencedContainer = "container:Algorithm.xcodeproj">
+               BlueprintIdentifier = "030DA54B1D4882A000235BA8"
+               BuildableName = "AlgorithmPractise"
+               BlueprintName = "AlgorithmPractise"
+               ReferencedContainer = "container:AlgorithmPractise.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "034F8DB51D3B40E0000A7FB5"
-            BuildableName = "Algorithm"
-            BlueprintName = "Algorithm"
-            ReferencedContainer = "container:Algorithm.xcodeproj">
+            BlueprintIdentifier = "030DA54B1D4882A000235BA8"
+            BuildableName = "AlgorithmPractise"
+            BlueprintName = "AlgorithmPractise"
+            ReferencedContainer = "container:AlgorithmPractise.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "034F8DB51D3B40E0000A7FB5"
-            BuildableName = "Algorithm"
-            BlueprintName = "Algorithm"
-            ReferencedContainer = "container:Algorithm.xcodeproj">
+            BlueprintIdentifier = "030DA54B1D4882A000235BA8"
+            BuildableName = "AlgorithmPractise"
+            BlueprintName = "AlgorithmPractise"
+            ReferencedContainer = "container:AlgorithmPractise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "034F8DB51D3B40E0000A7FB5"
-            BuildableName = "Algorithm"
-            BlueprintName = "Algorithm"
-            ReferencedContainer = "container:Algorithm.xcodeproj">
+            BlueprintIdentifier = "030DA54B1D4882A000235BA8"
+            BuildableName = "AlgorithmPractise"
+            BlueprintName = "AlgorithmPractise"
+            ReferencedContainer = "container:AlgorithmPractise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
