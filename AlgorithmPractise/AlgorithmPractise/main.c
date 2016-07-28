@@ -7,12 +7,14 @@
 //
 
 #include <stdio.h>
-#include "MaxSubSequenceSum.h"
+#include "ShellSort.h"
 
 int main(int argc, const char * argv[]) {
-    const int A[] = {4, -3, 5, -2, -1, 2, 6, -2};
+    int A[] = {4, -3, 5, -2, -1, 2, 6, -2};
     int num = 8;
-    int ret = maxSubSequenceSum_N(A, num);
-    printf("-----------\n%d\n-----------\n", ret);
+    ShellSort(A, num);
+    for (int i = 0; i < num; i++) {
+        printf("%d\n", A[i]);
+    }
     return 0;
 }
