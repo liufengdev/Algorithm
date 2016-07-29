@@ -7,12 +7,12 @@
 //
 
 #include <stdio.h>
-#include "InsertSort.h"
+#include "QuickSort.h"
 
 int main(int argc, const char * argv[]) {
     int A[] = {4, -3, 5, -2, -1, 2, 6, -2};
     int num = 8;
-    InsertSort(A, num);
+    QuickSort(A, num);
     for (int i = 0; i < num; i++) {
         printf("%d\n", A[i]);
     }
