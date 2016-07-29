@@ -7,12 +7,12 @@
 //
 
 #include <stdio.h>
-#include "ShellSort.h"
+#include "InsertSort.h"
 
 int main(int argc, const char * argv[]) {
     int A[] = {4, -3, 5, -2, -1, 2, 6, -2};
     int num = 8;
-    ShellSort(A, num);
+    InsertSort(A, num);
     for (int i = 0; i < num; i++) {
         printf("%d\n", A[i]);
     }

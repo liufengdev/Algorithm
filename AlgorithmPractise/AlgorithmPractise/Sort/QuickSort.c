@@ -8,15 +8,12 @@
 
 #include "QuickSort.h"
 
+void _qSort( ElementType A[], int left, int right)
+{
+    
+}
+
 void QuickSort( ElementType A[], int N )
 {
-    int p, j;
-    ElementType tmp;
-    for (p = 1; p < N; p++) {
-        tmp = A[p];
-        for (j = p; j > 0 && A[j - 1] > tmp; j--) {
-            A[j] = A[j - 1];
-        }
-        A[j] = tmp;
-    }
+
 }
