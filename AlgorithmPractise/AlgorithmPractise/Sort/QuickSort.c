@@ -13,15 +13,11 @@ void _qSort( ElementType A[], int left, int right)
     if (left >= right) {
         return;
     }
-    int i = left + 1, j = right;
+    int i = left, j = right + 1;
     ElementType guard = A[left];
-    while (i < j) {
-        while (A[j] > guard) {
-            j--;
-        }
-        while (A[i] < guard) {
-            i++;
-        }
+    for (; ;) {
+        while (A[--j] > guard) { }
+        while (A[++i] < guard) { }
         if (i < j) {
             ElementType temp = A[i];
             A[i] = A[j];
@@ -30,10 +26,10 @@ void _qSort( ElementType A[], int left, int right)
             break;
         }
     }
-    A[left] = A[i - 1];
-    A[i - 1] = guard;
-    _qSort(A, left, i - 2);
-    _qSort(A, i, right);
+    A[left] = A[j];
+    A[j] = guard;
+    _qSort(A, left, j - 1);
+    _qSort(A, j + 1, right);
 }
 
 void QuickSort( ElementType A[], int N )
